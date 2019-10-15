@@ -8,7 +8,7 @@ Nesse guia vamos cobrir as principais boas práticas para desenvolvimento de uma
 Declare apenas uma coisa, como serviço, componente, diretiva ou módulo por arquivo. Tente manter cada arquivo com até no máximo 400 linhas. Um componente por arquivo torna muito mais fácil ler, manter e evitar conflitos com equipes no seu VCS.
 Exemplo de **má prática** fazer:
 ```typescript
-* Evitar! */
+/* Evitar! */
 class Heroi {
   id: number;
   nome: string;
