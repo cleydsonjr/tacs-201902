@@ -57,10 +57,9 @@ Utilize nomes consistentes para todos os componentes sistema de acordo com o con
 Lembre-se que o padrão camel case tem o seguinte formato: `camelCase`, enquanto o pascal case tem o seguinte: `PascalCase` iniciando com letra maiúscula. Além disso, adicione o sufixo com o conceito que o símbolo criado representa (Ex.: Component, Directive, Module, Pipe, ou Service).
 
 Exemplos:
-|Nome do símbolo|Arquivo|
-|--|--|
-| <code>@Component({ ... })<br>export class AppComponent { }</code> | app.component.ts |
+
+| Nome do símbolo                                                          | Arquivo                 |
+| ------------------------------------------------------------------------ | ----------------------- |
+| <code>@Component({ ... })<br>export class AppComponent { }</code>        | app.component.ts        |
 | <code>@Directive({ ... })<br>export class ValidationDirective { }</code> | validation.directive.ts |
-| <code>@NgModule({ ... })<br>export class AppModule</code>  | app.module.ts |
-
-
+| <code>@NgModule({ ... })<br>export class AppModule</code>                | app.module.ts           |
